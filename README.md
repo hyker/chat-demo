@@ -223,7 +223,7 @@ const password = 'password' // mock password
 this.crypto = new RiksKit(deviceId, password, store, (did, ns) => {
 
   // conveniently, the name (well-known) is part of id
-  const [ name, id ] = btoa(did.substring(1)).split('|')
+  const [ name, id ] = atob(did.substring(1)).split('|')
 
   // deny if name not in whitelist
   if (!this.state.whitelist[name])
