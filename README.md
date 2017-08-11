@@ -12,7 +12,7 @@ The project is more than an example of how to build an encrypted chat applicatio
 
 ## Ask a question
 
-If you have any qestions of comments, please visit https://gitter.im/hykersec or open a [issue](https://github.com/hykersec/micro-project-chat/issues).
+If you have any qestions of comments, please visit https://gitter.im/hykersec or open a [issue](https://github.com/hykersec/chat-demo/issues).
 
 ## HYKER service
 
@@ -75,9 +75,9 @@ We will use [RethinkDB](https://www.rethinkdb.com/) for _message transport_ and 
 A simple chat GUI has been put together for your convenience. (It was created with `electron-forge init my-new-project --template=react`)
 
 ```
-git clone -b gui git@hykersec/hykersrc/micro-project-chat.git
+git clone -b gui git@hykersec/hykersrc/chat-demo.git
 
-cd micro-project-chat
+cd chat-demo
 
 npm install
 ```
@@ -86,7 +86,7 @@ The project contains a simple but complete chat UI with registration screen, cha
 
 ###### Quick overview
 
-The GUI resides in the `src` folder in the `micro-project-chat` project.
+The GUI resides in the `src` folder in the `chat-demo` project.
 
 | File | Type | Responsibility |
 | ----------------- | ----- | ------------------------------- |
@@ -104,7 +104,7 @@ A simple chat backend powered by node _express_ and RethinkDB has been put toget
 
 Above project contains a simple docker setup containing all dependencies of the backed.
 
-The backend resides in the `server/app.js` folder in the `micro-project-chat` project.
+The backend resides in the `server/app.js` folder in the `chat-demo` project.
 
 | Function | Type | Domain | DB | Action |
 | ---------- | ---------- | ------ | ------- | ----------------------------------- |
@@ -261,4 +261,4 @@ Decryption is equally straigt forward. Just like before we pass the chiper text 
 
 Thats all folks. Now you should know how to build a seriously secure chat app.
 
-If you have any qestions of comments, please visit https://gitter.im/hykersec or open a [issue](https://github.com/hykersec/micro-project-chat/issues).
+If you have any qestions of comments, please visit https://gitter.im/hykersec or open a [issue](https://github.com/hykersec/chat-demo/issues).
