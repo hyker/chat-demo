@@ -189,25 +189,24 @@ Let's go through them one by one.
 
 Let's start with id verification, since these functions are used when defining the whitelist.
 
-    /**
-     * Email: verify account ownership.
-     */
-    const verifyEmailAccount = async (id, mail) => {
-      const url = `http://${CHAT_URL}/${CHAT_END_SHOW}/${mail}`
-      const body = await fetch(url).then(res => res.text())
-      return body.includes(id)
-    }
+```js
+const verifyEmailAccount = async (id, mail) => {
+  const url = `http://${CHAT_URL}/${CHAT_END_SHOW}/${mail}`
+  const body = await fetch(url).then(res => res.text())
+  return body.includes(id)
+}
 
-    /**
-     * Github: verify account ownership.
-     */
-    const verifyGithubAccount = async (id, username) => {
-      const url = `https://api.github.com/users/${username}?_=${+new Date}`
-      const data = await fetch(url).then(res => res.json())
-      if (!data.bio)
-        throw 'no such user'
-      return data.bio.includes(id)
-    }
+/**
+ * Github: verify account ownership.
+ */
+const verifyGithubAccount = async (id, username) => {
+  const url = `https://api.github.com/users/${username}?_=${+new Date}`
+  const data = await fetch(url).then(res => res.json())
+  if (!data.bio)
+    throw 'no such user'
+  return data.bio.includes(id)
+}
+```
 
 
 #### Whitelist
