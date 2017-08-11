@@ -1,0 +1,24 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "redis": "^2.7.1",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "rethinkdb": "^2.3.3",
+    "uuid": "^3.1.0",
+    "validator": "^8.0.0",
+    "ws": "^3.0.0"
+  }
+}

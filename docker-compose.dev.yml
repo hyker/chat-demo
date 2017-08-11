@@ -1,0 +1,21 @@
+version: '2'
+services:
+  chat-server:
+    container_name: chat-server
+    image: chat-server
+    build: .
+    ports:
+      - 1337:1337
+    volumes:
+      - $PWD/server:/app
+    command: sleep 86400
+
+  rethink:
+    container_name: rethink
+    image: rethinkdb
+    ports:
+      - 8080:8080
+
+  redis:
+    container_name: redis 
+    image: redis
