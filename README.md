@@ -196,9 +196,6 @@ const verifyEmailAccount = async (id, mail) => {
   return body.includes(id)
 }
 
-/**
- * Github: verify account ownership.
- */
 const verifyGithubAccount = async (id, username) => {
   const url = `https://api.github.com/users/${username}?_=${+new Date}`
   const data = await fetch(url).then(res => res.json())
