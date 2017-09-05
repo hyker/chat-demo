@@ -156,7 +156,7 @@ When some device receives my message, `RIKS` will send a _key request_ to my dev
 
 ###### Well-known user id vs. unique device id
 
-`RIKS` operates on the device level and only knows about identities of devices. However, we would like to use well-known identities everywhere in our app since these are the ones we recognise. This means out whitelist will contains well-known user identities.
+`RIKS` operates on the device level and only knows about identities of devices. However, we would like to use well-known identities everywhere in our app since these are the ones we recognise. This means out whitelist will contain well-known user identities.
 
 But when a key request arrives, it will reference one of those unique strings representing the device. This is why we are clever when constructing the id. We start of with the well-known identity and prepend a random unique sufix. This way, when we handle a key request we instantly know both the device id and which user it belongs to. All that is left is to verify the connection between the two using the method described earler.
 
