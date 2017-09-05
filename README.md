@@ -157,6 +157,8 @@ Launch the frontend:
 
 Launch parallel apps by cloning the repo again in an other location.
 
+To chat with a friend, have him do `ssh -TNL 1337:localhost:1337 youruser@yourip` instead of `docker-compose up -d`. 
+
 ### End-to-end encryption
 
 Now it is time to add encrypted channels to the chat app. Before this doing this, let's look at some concepts and limitations.
