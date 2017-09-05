@@ -84,7 +84,8 @@ We will use [RethinkDB](https://www.rethinkdb.com/) for _message transport_ and 
 ### Prerequisites
 
 * `node 6`
-* `docker`
+* `python # 2 or 3`
+* `docker # and compose`
 * `electron-forge # npm install -g electron-forge`
 
 
@@ -148,7 +149,7 @@ The backend resides in the `server/app.js` folder in the `chat-demo` project.
 
 Launch the backend:
 
-```docker-compose up```
+```docker-compose up -d```
 
 Launch the frontend:
 
