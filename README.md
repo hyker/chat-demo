@@ -2,6 +2,22 @@
 
 ![](https://media.giphy.com/media/Ag1HsRXVkcfYY/giphy.gif)
 
+# TL;DR
+
+* This is a end-to-end encrypted chat application.
+* It uses public identites for recipient addresses.
+* Its purpose is to demonstrate how to integrate HYKER functionality.
+
+    git clone git@github.com:hykersec/chat-demo.git
+
+    cd chat-demo
+
+    npm install
+    
+    docker-compose up -d
+    
+    npm start
+
 ## Abstract
 
 In this micro project we will use HYKERs `RIKS` client to create a seriously secure instant messaging desktop application.
