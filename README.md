@@ -20,7 +20,7 @@ This project comes pre-configured with HYKER free service. No account or other r
 
 ## Prior knowledge
 
-Readers that are new to the area are encouraged to look through the HYKER developer program (2 hours), or at least the included article about id management (20 min); [hyker.gitbooks.io/developer-program](https://hyker.gitbooks.io/developer-program). For introduction to RIKS, have a look at [hyker.io/docs](https://hyker.io/docs).
+Readers that are new to the area are encouraged to look through the HYKER developer program (2 hours), or at least the included article about id management (20 min); [hyker.gitbooks.io/developer-program](https://hyker.gitbooks.io/developer-program). For introduction to RIKS, have a look at [hyker.gitbooks.io/docs/riks.html](https://hyker.gitbooks.io/docs/riks.html).
 
 ## Identities
 
