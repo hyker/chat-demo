@@ -75,7 +75,7 @@ We will use [RethinkDB](https://www.rethinkdb.com/) for _message transport_ and 
 A simple chat GUI has been put together for your convenience. (It was created with `electron-forge init my-new-project --template=react`)
 
 ```
-git clone git@hykersec/hykersrc/chat-demo.git
+git clone git@hykersec/chat-demo.git
 
 cd chat-demo
 
