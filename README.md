@@ -8,6 +8,8 @@
 * It uses public identites for recipient addresses.
 * Its purpose is to demonstrate how to integrate HYKER functionality.
 
+##### Launch!
+
     git clone git@github.com:hykersec/chat-demo.git
 
     cd chat-demo
